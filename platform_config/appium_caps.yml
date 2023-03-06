@@ -1,0 +1,17 @@
+caps:
+  udid: "default"
+  deviceName: "default"
+  platformVersion: "default"
+  platformName: "Android"
+  appPackage: "com.hmh.api"
+  appActivity: ".ApiDemos"
+  noReset: true
+  fullReset: false
+  automationName: "UiAutomator2"
+  autoWebView: true
+  setWebContentsDebuggingEnabled: true
+  autoAcceptAlerts: true
+  newCommandTimeout: 300
+
+appium_lib:
+  server_url: "http://127.0.0.1:4723/wd/hub"
